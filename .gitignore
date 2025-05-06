@@ -1,0 +1,37 @@
+# Compiled binaries
+/AES67-JACK/mai
+*.o
+
+# Build artifacts
+*.so
+*.a
+*.exe
+*.out
+*.app
+
+# Backup files
+*~
+*.bak
+*.swp
+*.tmp
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Build directories
+/build/
+/target/
+/debug/
+/release/
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# System files
+.directory
+.Trash-*
