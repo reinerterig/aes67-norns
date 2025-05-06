@@ -117,4 +117,33 @@
    - Integration with other AES67 hardware
    - Custom discovery and routing UI
 
+## Important: GitHub Repository Management
+
+### For Future Agents Working With This Repository
+
+If you need to make changes to the GitHub repository, NEVER make assumptions about authentication details. Always follow these exact steps:
+
+1. **Ask for explicit permission** before pushing any changes to GitHub
+   - "Would you like me to push these changes to GitHub?"
+
+2. **Request specific authentication information** from the user:
+   - "To push to GitHub, I'll need your GitHub username and a Personal Access Token. Please provide this information explicitly."
+   - "Would you like me to use your existing GitHub configuration or set up a new one?"
+
+3. **Verify repository details**:
+   - "Should I push to the existing 'aes67-norns' repository or a different one?"
+   - "Which branch should I push to?"
+
+4. **NEVER** assume GitHub credentials or commit the user's authentication tokens to files in the repository
+
+### Required Information for GitHub Operations
+
+Before performing any GitHub operations, collect the following information explicitly from the user:
+1. GitHub username: `reinerterig`
+2. Repository name: `aes67-norns` (or as specified by user)
+3. Branch to use: `main` (or as specified by user)
+4. A newly created GitHub Personal Access Token (these expire and should never be reused from documentation)
+
+Remember that Git configurations containing authentication tokens should be treated as sensitive and should never be committed to the repository.
+
 When you're ready to continue, simply refer back to this implementation plan, clone the repository from GitHub, and follow the testing steps outlined above.
